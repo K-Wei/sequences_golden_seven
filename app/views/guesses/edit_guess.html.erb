@@ -1,0 +1,20 @@
+<form action="/update_row/"<%= @g.id %>>
+  <p>
+    Enter a sequence:
+  </p>
+
+  <label for="first">First number:</label>
+  <input id="first" type="text" name="first_number" placeholder="The first number" value="<%= @num1 %>">
+
+  <label for="second">Second number:</label>
+  <input id="second" type="text" name="second_number" placeholder="The second number" value="<%= @num2 %>">
+
+  <label for="third">Third number:</label>
+  <input id="third" type="text" name="third_number" placeholder="The third number" value="<%= @num3 %>">
+
+  <button>
+    Check
+  </button>
+</form>
+
+<a href="/guesses">Back to all guesses </a>
